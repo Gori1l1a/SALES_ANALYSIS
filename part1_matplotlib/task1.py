@@ -27,6 +27,7 @@ ax2.legend()
 ax2.set_xticks(np.arange(-360, 361, 90))
 
 plt.tight_layout()
+plt.savefig('part1_matplotlib/img/task1.png')
 plt.show()
 
 
